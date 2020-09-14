@@ -1,0 +1,12 @@
+grep "\"plugin\":\"inject\"" %1 > injectplug.txt
+grep "\"plugin\":\"procmon\"" %1 > procmonplug.txt
+grep "\"plugin\":\"syscall\"" %1 > syscallplug.txt
+grep "\"plugin\":\"regmon\"" %1 > regmonplug.txt
+grep "\"plugin\":\"delaymon\"" %1 > delaymonplug.txt
+grep "\"plugin\":\"procdump\"" %1 > procdumpplug.txt
+grep "\"plugin\":\"windowmon\"" %1 > windowmonplug.txt
+grep "\"plugin\":\"fileextractor\"" %1 > fileextractorplug.txt
+grep "\"plugin\":\"cpuidmon\"" %1 > cpuidmonplug.txt
+grep "\"plugin\":\"envmon\"" %1 > envmonplug.txt
+grep "\"plugin\":\"netdump\"" %1 > netdumpplug.txt
+grep "\"plugin\":\"socketmon\"" %1 > socketmonplug.txt

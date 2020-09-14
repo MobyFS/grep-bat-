@@ -1,0 +1,1 @@
+grep "\"NewPid\":\"%1\"" %2 > NewPid%1.txt
